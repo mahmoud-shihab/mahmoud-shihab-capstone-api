@@ -5,7 +5,7 @@ import "dotenv/config";
 import Users from "./mongodb/Users.js";
 import Sheets from "./mongodb/Sheets.js";
 import sheetRouter from "./routes/sheets.js";
-import sheetRouter from "./routes/users.js";
+import userRouter from "./routes/users.js";
 
 const app = express();
 const { PORT, CORS_ORIGIN, DB_USERNAME, DB_PASSWORD } = process.env;
@@ -24,7 +24,7 @@ app.use(express.static("public"));
 //     // res.json(users);
 // })
 app.use("/api/v1/sheets",sheetRouter); 
-app.use("/api/v1/users",sheetRouter); 
+app.use("/api/v1/users",userRouter); 
 
 app.listen(PORT, () => {
     console.log(`App running on PORT: http://localhost:${PORT}/`);
