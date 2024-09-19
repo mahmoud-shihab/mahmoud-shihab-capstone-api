@@ -1,0 +1,18 @@
+[
+    {
+        "_id": {
+            "$oid": "66e1c6f285f3d12a4a71028b"
+        },
+        "name": "Confidence",
+        "email": "confidence@example.com",
+        "password": "98d6d5a7bd853ed3552f62bc9cb041eaa6ff78ee458f88dcb236af0a01e5e67f"
+    },
+    {
+        "_id": {
+            "$oid": "66e1c70685f3d12a4a71028c"
+        },
+        "name": "Blasphemy",
+        "email": "blasphemy@example.com",
+        "password": "9b68ebee7b0702aeac0bce8658914d782d85158f4141d09c2e4588b059ff8acd"
+    }
+]
