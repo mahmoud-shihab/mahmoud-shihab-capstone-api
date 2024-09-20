@@ -1,6 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import Sheets from "../mongodb/Sheets.js";
+import * as controller from "../controllers/sheetsController.js";
 import "dotenv/config";
 
 const { DB_USERNAME, DB_PASSWORD } = process.env;
@@ -9,10 +10,14 @@ mongoose.connect(MONGODB_LINK);
 
 const router = express.Router();
 
-router.route("/").get(async (_req,res)=>{
-    const sheet = await Sheets.find().exec()
-    // const sheet = await Sheets.findById("66eb3bb9faf44d1cb74b41ac").exec()
-    res.json(sheet);
-})
+router.route("/").get(controller.getSheets).post(controller.createNewSheet);
+
+router
+    .route("/:id")
+    .get(controller.getSheetByID)
+    .delete(controller.deleteSheetByID)
+    .post(controller.updateSheetByID);
+
+router.route("/user/:id").get(controller.getSheetsByUserID)
 
 export default router;

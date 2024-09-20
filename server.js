@@ -1,14 +1,11 @@
 import express from "express";
 import cors from "cors";
-import mongoose from "mongoose";
 import "dotenv/config";
 import sheetRouter from "./routes/sheets.js";
 import userRouter from "./routes/users.js";
 
 const app = express();
-const { PORT, CORS_ORIGIN, DB_USERNAME, DB_PASSWORD } = process.env;
-const MONGODB_LINK = `mongodb+srv://${DB_USERNAME}:${DB_PASSWORD}@mahmoud-shihab-capstone.9gqxi.mongodb.net/character_sheets?retryWrites=true&w=majority&appName=mahmoud-shihab-capstone`;
-mongoose.connect(MONGODB_LINK);
+const { PORT, CORS_ORIGIN } = process.env;
 
 app.use(express.json());
 app.use(cors(CORS_ORIGIN));
