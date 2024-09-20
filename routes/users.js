@@ -1,6 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import Users from "../mongodb/Users.js";
+import * as controller from "../controllers/usersController.js";
 import "dotenv/config";
 
 const { DB_USERNAME, DB_PASSWORD } = process.env;
@@ -9,11 +10,10 @@ mongoose.connect(MONGODB_LINK);
 
 const router = express.Router();
 
-router.route("/").get(async (_req,res)=>{
-    const users = await Users.find().exec()
-    // const users = await Users.findById("66e1c70685f3d12a4a71028c").exec()
-    res.json(users);
-})
-
+router.route("/").get(controller.getUsers).post(controller.createNewUser);
+router
+    .route("/:id")
+    .get(controller.getUserByID)
+    .delete(controller.deleteUserByID)
+    .post(controller.updateUserByID);
 export default router;
-

@@ -50,9 +50,9 @@ export async function createNewSheet(req, res) {
                 sheet_name: sheet.sheet_name,
                 character_sheet: sheet.character_sheet,
             },
-        })
+        });
     } catch (error) {
-        return res.status(500).json({ message: "Error creating new sheet.", error:error });
+        return res.status(500).json({ message: "Error creating new sheet." });
     }
 }
 
@@ -62,7 +62,7 @@ export async function createNewSheet(req, res) {
 
 /* ----------------------------------- GET ---------------------------------- */
 export async function getSheetByID(req, res) {
-    let sheetID = req.params.id;
+    const sheetID = req.params.id;
     try {
         const sheet = await Sheets.findById(sheetID).exec();
         if (!sheet) {
@@ -140,10 +140,10 @@ export async function updateSheetByID(req, res) {
 /* -------------------------------------------------------------------------- */
 
 /* ----------------------------------- GET ---------------------------------- */
-export async function getSheetsByUserID(req, res){
+export async function getSheetsByUserID(req, res) {
     const userID = req.params.id;
     try {
-        const sheets = await Sheets.find({ "user": userID }).exec();
+        const sheets = await Sheets.find({ user: userID }).exec();
         return res.status(200).json(
             sheets.map(({ _id, user, sheet_name }) => ({
                 _id,
