@@ -8,15 +8,14 @@
     "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["BrainStation", "Capstone", "Dragon Drop"],
+  "author": "Mahmoud Shihab",
   "license": "ISC",
-  "description": "",
+  "description": "The API for Mahmoud Shihab's BrainStation Capstone project: Dragon Drop",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.20.0",
-    "knex": "^3.1.0",
     "mongodb": "^6.8.1",
     "mongoose": "^8.6.1"
   }
