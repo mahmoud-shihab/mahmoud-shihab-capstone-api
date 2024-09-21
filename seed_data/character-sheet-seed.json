@@ -288,5 +288,338 @@
                 "type": "skill"
             }
         ]
+    },
+    {
+        "_id": {
+            "$oid": "66eca205faf44d1cb74b41bb"
+        },
+        "user": "66e1c6f285f3d12a4a71028b",
+        "sheet_name": "Confidence",
+        "character_sheet": [
+            {
+                "id": "8d85c16f-a756-4855-8f23-e40801767b5e",
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 10,
+                    "height": 1
+                },
+                "content": "Confidence",
+                "type": "name"
+            },
+            {
+                "id": "1df8aea8-a75a-4ae8-94ea-48dc389c72f0",
+                "position": {
+                    "x": 0,
+                    "y": 100
+                },
+                "size": {
+                    "width": 3,
+                    "height": 3
+                },
+                "content": "data:image/jpeg;base64,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",
+                "type": "portrait"
+            },
+            {
+                "id": "fd799ab4-d2e8-478e-b6f6-25640d9ed6f5",
+                "position": {
+                    "x": 0,
+                    "y": 400
+                },
+                "size": {
+                    "width": 3,
+                    "height": 6
+                },
+                "content": "Background\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi arcu turpis, accumsan eget diam fringilla, accumsan bibendum elit. Morbi rutrum tortor mi, id sollicitudin ligula imperdiet in. Duis sollicitudin tincidunt metus nec imperdiet. Sed a purus iaculis, volutpat urna mattis, feugiat elit. Mauris eleifend sem ut orci interdum eleifend. Duis gravida mauris non dolor consectetur, vel aliquam leo efficitur. Donec interdum eros at erat efficitur, nec mattis eros iaculis. Morbi facilisis placerat sem id molestie. Nulla ut eros gravida, bibendum sapien eget, vehicula ipsum. Nullam imperdiet iaculis ornare. Maecenas eget auctor justo, eget lacinia metus. Morbi venenatis maximus erat vel iaculis.",
+                "type": "text"
+            },
+            {
+                "id": "28177a85-2e17-4160-a1bb-3ecf8dae33f5",
+                "position": {
+                    "x": 300,
+                    "y": 400
+                },
+                "size": {
+                    "width": 3,
+                    "height": 6
+                },
+                "content": "Items:\n- 1 Short Sword\n- 1 Dagger",
+                "type": "text"
+            },
+            {
+                "id": "f0943e5e-6ce4-4bc9-96eb-5e77e202455f",
+                "position": {
+                    "x": 600,
+                    "y": 400
+                },
+                "size": {
+                    "width": 4,
+                    "height": 6
+                },
+                "content": "Important Events:\n- Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n- Vestibulum consequat ligula nec eros molestie, id blandit mi maximus.\n- Praesent a risus ac nunc mattis rutrum at eu dolor.\n- Mauris consectetur justo et fermentum posuere.\n- Mauris at lorem id ligula tempor semper.\n- Donec pretium nulla quis massa porttitor mattis.",
+                "type": "text"
+            },
+            {
+                "id": "8a74b350-fd33-4413-8ca0-55b1951eb858",
+                "position": {
+                    "x": 300,
+                    "y": 100
+                },
+                "size": {
+                    "width": 1,
+                    "height": 1
+                },
+                "content": {
+                    "skillName": "STR",
+                    "diceCount": 1,
+                    "diceType": 20,
+                    "modifier": -1
+                },
+                "type": "skill"
+            },
+            {
+                "id": "c24cd034-4594-4e76-9636-76d217fc6bcd",
+                "position": {
+                    "x": 400,
+                    "y": 100
+                },
+                "size": {
+                    "width": 1,
+                    "height": 1
+                },
+                "content": {
+                    "skillName": "DEX",
+                    "diceCount": 1,
+                    "diceType": 20,
+                    "modifier": 2
+                },
+                "type": "skill"
+            },
+            {
+                "id": "3c1840ee-1e4f-44c0-9e32-699968c87992",
+                "position": {
+                    "x": 500,
+                    "y": 100
+                },
+                "size": {
+                    "width": 1,
+                    "height": 1
+                },
+                "content": {
+                    "skillName": "CON",
+                    "diceCount": 1,
+                    "diceType": 20,
+                    "modifier": 0
+                },
+                "type": "skill"
+            },
+            {
+                "id": "23b2ccbc-cd54-4268-8952-0b9f86475b75",
+                "position": {
+                    "x": 700,
+                    "y": 100
+                },
+                "size": {
+                    "width": 1,
+                    "height": 1
+                },
+                "content": {
+                    "skillName": "INT",
+                    "diceCount": 1,
+                    "diceType": 20,
+                    "modifier": 5
+                },
+                "type": "skill"
+            },
+            {
+                "id": "c38811d6-5771-49f1-a5b3-106adfbf5532",
+                "position": {
+                    "x": 800,
+                    "y": 100
+                },
+                "size": {
+                    "width": 1,
+                    "height": 1
+                },
+                "content": {
+                    "skillName": "WIS",
+                    "diceCount": 1,
+                    "diceType": 20,
+                    "modifier": 4
+                },
+                "type": "skill"
+            },
+            {
+                "id": "3cbe40d1-7fad-4441-992f-082243e65a62",
+                "position": {
+                    "x": 900,
+                    "y": 100
+                },
+                "size": {
+                    "width": 1,
+                    "height": 1
+                },
+                "content": {
+                    "skillName": "CHA",
+                    "diceCount": 1,
+                    "diceType": 20,
+                    "modifier": 3
+                },
+                "type": "skill"
+            },
+            {
+                "id": "78c14a9d-24b4-40f9-aa21-25ba693f7e20",
+                "position": {
+                    "x": 300,
+                    "y": 200
+                },
+                "size": {
+                    "width": 2,
+                    "height": 1
+                },
+                "content": {
+                    "skillName": "Fireball",
+                    "diceCount": 4,
+                    "diceType": 6,
+                    "modifier": 0
+                },
+                "type": "skill"
+            },
+            {
+                "id": "376251fb-8df8-418b-8e29-06aa3ce0322f",
+                "position": {
+                    "x": 300,
+                    "y": 300
+                },
+                "size": {
+                    "width": 2,
+                    "height": 1
+                },
+                "content": {
+                    "skillName": "Magic Missle",
+                    "diceCount": 4,
+                    "diceType": 4,
+                    "modifier": 1
+                },
+                "type": "skill"
+            },
+            {
+                "id": "5de74e78-e1f1-49b4-b4e3-93d2299dda69",
+                "position": {
+                    "x": 600,
+                    "y": 200
+                },
+                "size": {
+                    "width": 2,
+                    "height": 1
+                },
+                "content": {
+                    "skillName": "Arcana",
+                    "diceCount": 1,
+                    "diceType": 20,
+                    "modifier": 5
+                },
+                "type": "skill"
+            },
+            {
+                "id": "7410365d-19d8-4e74-95a8-c9099b2cf20e",
+                "position": {
+                    "x": 600,
+                    "y": 300
+                },
+                "size": {
+                    "width": 2,
+                    "height": 1
+                },
+                "content": {
+                    "skillName": "Investigation",
+                    "diceCount": 1,
+                    "diceType": 20,
+                    "modifier": 5
+                },
+                "type": "skill"
+            },
+            {
+                "id": "becb6b94-d058-4488-8ab7-bf3359bcf05b",
+                "position": {
+                    "x": 800,
+                    "y": 200
+                },
+                "size": {
+                    "width": 2,
+                    "height": 1
+                },
+                "content": {
+                    "skillName": "History",
+                    "diceCount": 1,
+                    "diceType": 20,
+                    "modifier": 5
+                },
+                "type": "skill"
+            },
+            {
+                "id": "a1576f94-b838-4986-8a20-40aee242b3b4",
+                "position": {
+                    "x": 800,
+                    "y": 300
+                },
+                "size": {
+                    "width": 2,
+                    "height": 1
+                },
+                "content": {
+                    "skillName": "Medicine",
+                    "diceCount": 1,
+                    "diceType": 20,
+                    "modifier": 4
+                },
+                "type": "skill"
+            }
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "66ecb517faf44d1cb74b41bc"
+        },
+        "user": "66e1c6f285f3d12a4a71028b",
+        "sheet_name": "Delete Me",
+        "character_sheet": []
+    },
+    {
+        "_id": {
+            "$oid": "66ed92a0b51ab68347a5b8fb"
+        },
+        "user": "66e1c6f285f3d12a4a71028b",
+        "sheet_name": "Update Me",
+        "character_sheet": [
+            {
+                "id": "8d85c16f-a756-4855-8f23-e40801767b5e",
+                "position": {
+                    "x": 0,
+                    "y": 0
+                },
+                "size": {
+                    "width": 10,
+                    "height": 1
+                },
+                "content": "Update Me",
+                "type": "name"
+            },
+            {
+                "id": "d902e2db-9012-4c29-90da-f752e1cce5d7",
+                "position": {
+                    "x": 0,
+                    "y": 1
+                },
+                "size": {
+                    "width": 2,
+                    "height": 4
+                },
+                "content": "Should Not Update",
+                "type": "text"
+            }
+        ]
     }
 ]
