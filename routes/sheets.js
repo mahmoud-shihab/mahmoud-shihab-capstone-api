@@ -11,7 +11,6 @@ mongoose.connect(MONGODB_LINK);
 const router = express.Router();
 
 router.route("/").get(controller.getSheets).post(controller.createNewSheet);
-
 router
     .route("/:id")
     .get(controller.getSheetByID)

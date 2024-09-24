@@ -17,3 +17,5 @@ app.use("/api/v1/users",userRouter);
 app.listen(PORT, () => {
     console.log(`App running on PORT: http://localhost:${PORT}/`);
 });
+
+JSON.stringify
